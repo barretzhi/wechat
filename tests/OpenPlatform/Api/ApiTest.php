@@ -16,7 +16,7 @@ use EasyWeChat\OpenPlatform\AccessToken;
 use EasyWeChat\OpenPlatform\Api\AbstractOpenPlatform;
 use EasyWeChat\Tests\TestCase;
 use Mockery as m;
-use Symfony\Component\HttpFoundation\Request;
+use Illuminate\Http\Request;
 
 class ApiTest extends TestCase
 {

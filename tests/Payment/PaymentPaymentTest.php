@@ -19,8 +19,8 @@ use EasyWeChat\Payment\Payment;
 use EasyWeChat\Support\XML;
 use EasyWeChat\Tests\TestCase;
 use Overtrue\Socialite\AccessToken;
-use Symfony\Component\HttpFoundation\Request;
-use Symfony\Component\HttpFoundation\Response;
+use Illuminate\Http\Request;
+use Illuminate\Http\Response;
 
 class PaymentPaymentTest extends TestCase
 {

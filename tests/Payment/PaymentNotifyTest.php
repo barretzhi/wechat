@@ -17,7 +17,7 @@ use EasyWeChat\Payment\Notify;
 use EasyWeChat\Support\Collection;
 use EasyWeChat\Support\XML;
 use EasyWeChat\Tests\TestCase;
-use Symfony\Component\HttpFoundation\Request;
+use Illuminate\Http\Request;
 
 class PaymentNotifyTest extends TestCase
 {

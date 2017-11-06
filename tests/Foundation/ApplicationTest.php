@@ -18,7 +18,7 @@ use EasyWeChat\Foundation\Config;
 use EasyWeChat\Tests\TestCase;
 use Pimple\Container;
 use Pimple\ServiceProviderInterface;
-use Symfony\Component\HttpFoundation\Request;
+use Illuminate\Http\Request;
 
 class ApplicationTest extends TestCase
 {

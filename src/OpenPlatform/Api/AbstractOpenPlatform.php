@@ -29,7 +29,7 @@ namespace EasyWeChat\OpenPlatform\Api;
 
 use EasyWeChat\Core\AbstractAPI;
 use EasyWeChat\OpenPlatform\AccessToken;
-use Symfony\Component\HttpFoundation\Request;
+use Illuminate\Http\Request;
 
 abstract class AbstractOpenPlatform extends AbstractAPI
 {

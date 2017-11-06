@@ -31,8 +31,8 @@ use EasyWeChat\Message\Text;
 use EasyWeChat\Support\Collection;
 use EasyWeChat\Support\Log;
 use EasyWeChat\Support\XML;
-use Symfony\Component\HttpFoundation\Request;
-use Symfony\Component\HttpFoundation\Response;
+use Illuminate\Http\Request;
+use Illuminate\Http\Response;
 
 /**
  * Class Guard.

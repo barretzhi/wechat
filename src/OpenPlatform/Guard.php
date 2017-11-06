@@ -30,7 +30,7 @@ namespace EasyWeChat\OpenPlatform;
 use EasyWeChat\Server\Guard as ServerGuard;
 use EasyWeChat\Support\Collection;
 use EasyWeChat\Support\Log;
-use Symfony\Component\HttpFoundation\Response;
+use Illuminate\Http\Response;
 
 class Guard extends ServerGuard
 {

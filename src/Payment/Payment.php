@@ -26,7 +26,7 @@ use EasyWeChat\Core\Exceptions\FaultException;
 use EasyWeChat\Support\Url as UrlHelper;
 use EasyWeChat\Support\XML;
 use Overtrue\Socialite\AccessTokenInterface;
-use Symfony\Component\HttpFoundation\Response;
+use Illuminate\Http\Response;
 
 /**
  * Class Payment.

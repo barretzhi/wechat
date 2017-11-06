@@ -14,7 +14,7 @@ namespace EasyWeChat\Tests\MiniProgram;
 use EasyWeChat\MiniProgram\Encryption\Encryptor;
 use EasyWeChat\MiniProgram\Server\Guard;
 use EasyWeChat\Tests\TestCase;
-use Symfony\Component\HttpFoundation\Request;
+use Illuminate\Http\Request;
 
 class MiniProgramServerGuardTest extends TestCase
 {

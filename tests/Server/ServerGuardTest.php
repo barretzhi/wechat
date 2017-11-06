@@ -16,7 +16,7 @@ use EasyWeChat\Message\Raw;
 use EasyWeChat\Server\Guard;
 use EasyWeChat\Support\XML;
 use EasyWeChat\Tests\TestCase;
-use Symfony\Component\HttpFoundation\Request;
+use Illuminate\Http\Request;
 
 class ServerGuardTest extends TestCase
 {

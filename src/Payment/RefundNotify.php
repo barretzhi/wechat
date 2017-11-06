@@ -14,7 +14,7 @@ namespace EasyWeChat\Payment;
 use EasyWeChat\Core\Exceptions\FaultException;
 use EasyWeChat\Support\Collection;
 use EasyWeChat\Support\XML;
-use Symfony\Component\HttpFoundation\Request;
+use Illuminate\Http\Request;
 
 class RefundNotify
 {
